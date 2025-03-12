@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 8px;
+    display: flex;
+    justify-content: left;
+    align-items: left
+}
+
+h2 {
+    color: #333;
+}
+
+.info {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#clima {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }
+  
+#termometroimg {
+    width: 40px;  
+    height: auto; 
+}
+#umidadeimg{
+    width: 20px;  
+    height: auto
+}
+  
+.status {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.status.off {
+    color: red;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
